@@ -22,6 +22,8 @@ msg_cliente = api[6].strip()
 caixa_msg2 = api[7].strip()
 caixa_pesquisa = api[8].strip() 
 
+#variavel usuario, alterar para autenticacação se necessario em algum site ou hospedagem
+usuario = 'editacodigo@gmail.com'
 dir_path = os.getcwd()
 chrome_options2 = Options()
 chrome_options2.add_argument(r"user-data-dir=" + os.path.join(dir_path + "profile/zap"))
@@ -57,6 +59,9 @@ def bot():
         time.sleep(5)
         
         #answer client
+        resposta = requests.get('http://localhost/alterar_para_php.php', params={'msg': mensagem, 'telefone': telefone_final, 'usuario': usuario}, headers=agent)
+        time.sleep(1)
+        resposta = resposta.text
         campo_texto = driver.find_element(By.XPATH,caixa_msg)
         campo_texto.click()
         time.sleep(1)
