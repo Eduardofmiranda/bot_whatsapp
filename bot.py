@@ -63,8 +63,11 @@ def bot():
         campo_texto.send_keys('Mensagem padrao DEV', Keys.ENTER)
 
 
+        #FECHA CONTATO
+        webdriver.ActionChains(driver).send_keys(Keys.ESCAPE).perform()
+
     except:
-        print('ola')
+        print('AGUARDANDO NOVAS MENSAGENS!')
         
         #entao vou tentar isso aqui 
 
