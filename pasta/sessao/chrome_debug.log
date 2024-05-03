@@ -1,0 +1,16 @@
+[12556:12964:0501/002930.671:WARNING:chrome_main_delegate.cc(750)] This is Chrome version 124.0.6367.119 (not a warning)
+[12556:12964:0501/002930.738:INFO:chrome_browser_cloud_management_controller.cc(168)] Starting CBCM Controller Initialization
+[12556:12964:0501/002930.738:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
+[12556:12964:0501/002930.764:WARNING:browser_management_service.cc(128)] EnterpriseLogoUrl fetch failed with error code -1 and MIME type 
+[4664:4344:0501/002931.096:WARNING:runtime_features.cc(730)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[10676:4704:0501/002931.111:WARNING:runtime_features.cc(730)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[1536:12948:0501/002931.542:WARNING:runtime_features.cc(730)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[3540:13044:0501/002931.723:WARNING:runtime_features.cc(730)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[12556:12964:0501/002933.462:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'attribution-reporting'.", source:  (0)
+[7152:12340:0501/002934.111:WARNING:angle_platform_impl.cc(49)] HLSLCompiler.cpp:250 (compileToBinary): 
+C:\fakepath(130,3-70): warning X3557: loop only executes for 1 iteration(s), forcing loop to unroll
+
+[6736:13092:0501/002937.956:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:247 to client_task_runner_.
+[6736:13152:0501/002938.162:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:247 to client_task_runner_.
+[6736:13152:0501/002938.162:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:247 to client_task_runner_.
+[12556:12964:0501/002939.822:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
